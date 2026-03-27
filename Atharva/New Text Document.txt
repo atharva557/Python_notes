@@ -1,0 +1,32 @@
+1. Find the total units produced by each product_category.
+2. Calculate the average profit for each factory.
+3. Find the total defective_units for each shift.
+4. Calculate the average production_time_hr for each supervisor.
+5. Find the total energy_consumption_kwh for each factory and shift.
+6. For each product_category, calculate:
+total units_produced
+average profit
+maximum defective_units.
+7. For each factory, calculate:
+mean production_time_hr
+median machine_downtime_hr.
+8. For each shift, compute:
+minimum profit
+maximum profit
+average units_produced.
+9. For each supervisor, calculate:
+total units_produced
+total defective_units.
+10. Using apply(), calculate the defect rate for each row:
+defect_rate=defective_units/units_produced
+11. Using groupby().apply(), find the profit range (max − min) for each factory.
+12. Using groupby().apply(), find the row with maximum units_produced in each product_category.
+13. Use apply() to create a new column efficiency_score:
+efficiency=units_produced/production_time_hr
+14. Find how many times each product_category appears in the dataset.
+15. Count the number of records for each shift.
+16. Find the most frequent supervisor using value_counts().
+17. Sort the dataset by profit in descending order.
+18. Sort the dataset by:
+	product_category ascending
+units_produced descending
